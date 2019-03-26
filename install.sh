@@ -39,7 +39,7 @@ GATEWAY_EUI=${GATEWAY_EUI^^} # toupper
 echo "Detected EUI $GATEWAY_EUI from $GATEWAY_EUI_NIC"
 
 
-printf "       Host name [rak-gateway]:"
+printf "       Host name [yodiwo-gateway]:"
 read NEW_HOSTNAME
 if [[ $NEW_HOSTNAME == "" ]]; then NEW_HOSTNAME="ywpxxxx"; fi
 
